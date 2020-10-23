@@ -39,7 +39,7 @@ h1 span
     display: table-cell;
     margin:0;
     padding: 0;
-    animation: animate 2s linear infinite;
+    animation: animate 2.5s linear infinite;
 
 }
 h1 span:nth-child(1)
@@ -85,10 +85,15 @@ h1 span:nth-child(10)
 .text{
   position: fixed;
   bottom: 47%;
+
 }
 @media(max-width:800px){
   h1{
     font-size: 18.5vw;
+    line-height: 130%;
+  }
+  .narrow{
+    display: block;
   }
 }
 @keyframes animate
